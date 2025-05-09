@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.divider.divider-custom {
+  margin: 0 !important;
+  height: 0 !important;
+}
+
+.no-background {
+  background: none !important;
+}
