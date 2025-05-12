@@ -8,33 +8,34 @@ function About() {
   return (
     <>
 
-    <div className="carousel w-full h-[70vh] rounded-box overflow-hidden relative">
+    <div className="carousel w-full h-[70vh] rounded-box overflow-hidden relative" id="about">
       {[
         {
-          id: "slide1",
-          img: wavesCard,
-          text: "Hi, I'm a passionate full-stack web developer.",
-        },
-        {
-          id: "slide2",
-          img: parisCard,
-          text: "I love working with React, TypeScript, and beautiful UI. As well as Node.js, Express, and Firebase",
-        },
-        {
-          id: "slide3",
-          img: mushrumsCard,
-          text: "I also care about accessibility, performance, and clean code.",
-        },
-        {
-          id: "slide4",
-          img: lavanderFieldCard,
-          text: "Let’s build something great together 🚀",
-        },
-        {
-          id: "slide5",
-          img: cupWithBookCard,
-          text: "Fun fact: I love to play video games and read.",
-        },
+            id: "slide1",
+            img: wavesCard,
+            text: "Hi, I’m a proficient full-stack web developer with a strong passion for learning and building impactful solutions.",
+          },
+          {
+            id: "slide2",
+            img: parisCard,
+            text: "I work confidently with React, TypeScript, Node.js, Firebase, and modern web technologies to create fast, intuitive apps.",
+          },
+          {
+            id: "slide3",
+            img: mushrumsCard,
+            text: "I love to learn and be effitent, so even if i`m not familiar with a tool, I can learn it quickly and use it effectively.",
+            
+          },
+          {
+            id: "slide4",
+            img: lavanderFieldCard,
+            text: "My cross-disciplinary background shapes how I approach problems — with curiosity, clarity, and a drive to deliver.",
+          },
+          {
+            id: "slide5",
+            img: cupWithBookCard,
+            text: "Outside of tech, I enjoy beautiful storytelling in video games and books that challenge the way we see the world.",
+          },
       ].map((slide, index, arr) => {
         const prev = `#${arr[(index - 1 + arr.length) % arr.length].id}`;
         const next = `#${arr[(index + 1) % arr.length].id}`;

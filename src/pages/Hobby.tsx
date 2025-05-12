@@ -1,10 +1,5 @@
 function Hobby() {
 
-    const bookRecommend = () => {
-        alert("I recommend 'The Poppy War' by R. F. Kuang." +
-            " It is a dark and gritty fantasy novel that explores themes of war, power, and identity. ");
-    };
-
   return (
     <>
     <div className="bg-base-100 border-base-300 collapse border" id="hobby">
@@ -25,7 +20,29 @@ function Hobby() {
             <br />
             Tap for book recommendation based on my personal and very hummble opinion
             <br />
-            <button className="btn btn-soft btn-info" onClick={bookRecommend}>Click here!</button>
+            <button
+              className="btn btn-soft btn-info"
+              onClick={() => {
+                const modal = document.getElementById('my_modal_1') as HTMLDialogElement | null;
+                if (modal) {
+                  modal.showModal();
+                }
+              }}
+            >
+              Click Me!
+            </button>
+              <dialog id="my_modal_1" className="modal">
+                <div className="modal-box">
+                  <h3 className="font-bold text-lg">For you</h3>
+                  <p className="py-4">I recommend 'The Poppy War' by R. F. Kuang. <br/>
+                  It is a dark and gritty fantasy novel that explores themes of war, power, and identity. </p>
+                  <div className="modal-action">
+                    <form method="dialog">
+                      <button className="btn">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </dialog>
           </div>
         </div>
         <div className="chat chat-end">

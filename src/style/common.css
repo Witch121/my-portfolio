@@ -22,3 +22,21 @@
 .no-background {
   background: none !important;
 }
+
+#projectLogo {
+  max-width: 200px;
+}
+
+.skyBackground {
+  filter: blur(2px);
+}
+
+#projects > .min-h-screen {
+  min-height: 50vh !important;
+}
+
+.avatar {
+    & > div {
+        aspect-ratio: initial !important;
+    }
+}
