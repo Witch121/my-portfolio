@@ -1,8 +1,9 @@
 import parisCard from "../assets/img/paris.jpg";
 import cupWithBookCard from "../assets/img/cupWithBook.jpg";
-import mushrumsCard from "../assets/img/mushrooms.jpg"
-import lavanderFieldCard from "../assets/img/lavenderField.jpg"
-import wavesCard from "../assets/img/waves.jpg"
+import mushrumsCard from "../assets/img/mushrooms.jpg";
+import lavanderFieldCard from "../assets/img/lavenderField.jpg";
+import wavesCard from "../assets/img/waves.jpg";
+import bookshelfCard from "../assets/img/bookshelf.jpg";
 
 function About() {
   return (
@@ -35,6 +36,11 @@ function About() {
             id: "slide5",
             img: cupWithBookCard,
             text: "Outside of tech, I enjoy beautiful storytelling in video games and books that challenge the way we see the world.",
+          },
+          {
+            id: "slide6",
+            img: bookshelfCard,
+            text: "My language skills include English (C1), Russian (native), Ukrainian (native), and German (C1) which help me connect with diverse communities.",
           },
       ].map((slide, index, arr) => {
         const prev = `#${arr[(index - 1 + arr.length) % arr.length].id}`;
