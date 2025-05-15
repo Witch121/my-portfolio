@@ -23,10 +23,10 @@ function Home() {
       <div className="hero-content relative z-10 text-center text-white px-4">
         <div>
           <h1 className="text-5xl font-bold mb-6">Personal Portfolio</h1>
-          <p className="py-6 text-lg max-w-2xl mx-auto leading-relaxed">
-            Hello, I’m Daria.<br />
-            I’m a Web Developer focused on clean design and continuous learning.<br />
-            If you’re passionate about technology and growth — we’re already on the same page.
+          <p className="py-6 text-xl max-w-2xl mx-auto leading-relaxed">
+            Hi, I’m Daria — <br/>
+            a web developer with a passion for functional design, smart solutions, and lifelong learning. <br/>
+            If you value clarity, creativity, and clean code, we’re probably already friends.
           </p>
         </div>
       </div>

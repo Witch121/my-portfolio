@@ -9,7 +9,7 @@ function Contact() {
     <>
     <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10" id='contact'>
       <nav className="grid grid-flow-col gap-4">
-        <h2>Doing web staff since I decided so</h2><br/>
+        <h2>Writing code since I realized chaos can be compiled.</h2><br/>
         <a className="link link-hover" href="https://www.flaticon.com/">Contribution</a>
       </nav>
       <nav>

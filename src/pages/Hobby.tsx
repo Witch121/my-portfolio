@@ -7,19 +7,16 @@ function Hobby() {
       <div
         className="collapse-title bg-accent text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
-        Want to know about me?
+        Curious about my hobbies?
       </div>
       <div
         className="collapse-content bg-secondary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
       >
         <div className="chat chat-start">
           <div className="chat-bubble">
-            I am the bookworm
-            <br />
-             love reading books. I am a fan of fantasy and science.
-            <br />
-            Tap for book recommendation based on my personal and very hummble opinion
-            <br />
+             I’m an unapologetic bookworm. 📚<br />
+              I devour stories that blend fantasy, philosophy, and a pinch of science fiction.<br />
+              Want a recommendation from my curated shelf of personal favorites?<br />
             <button
               className="btn btn-soft btn-info"
               onClick={() => {
@@ -29,13 +26,13 @@ function Hobby() {
                 }
               }}
             >
-              Click Me!
+              Show me the book!
             </button>
               <dialog id="my_modal_1" className="modal">
                 <div className="modal-box">
                   <h3 className="font-bold text-lg">For you</h3>
-                  <p className="py-4">I recommend 'The Poppy War' by R. F. Kuang. <br/>
-                  It is a dark and gritty fantasy novel that explores themes of war, power, and identity. </p>
+                  <p className="py-4">*The Poppy War* by R. F. Kuang <br/>
+                   — a dark, beautifully written fantasy epic diving deep into power, identity, and the cost of war.</p>
                   <div className="modal-action">
                     <form method="dialog">
                       <button className="btn">Close</button>
@@ -46,9 +43,9 @@ function Hobby() {
           </div>
         </div>
         <div className="chat chat-end">
-          <div className="chat-bubble">I also like to play computer games!
-            <br />
-            I am a fan of RPG and adventure games.
+          <div className="chat-bubble">
+            🎮 When I’m not buried in books, you’ll find me exploring rich, immersive RPGs and story-driven games.<br />
+              I love narratives that challenge perception, evoke emotion, and let me save the world before breakfast.
           </div>
         </div>
       </div>

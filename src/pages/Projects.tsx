@@ -17,12 +17,12 @@ function Projects() {
             <div>
               <h1 className="text-5xl font-bold">Personal Book Tracker</h1>
               <p className="py-4 text-lg max-w-xl">
-                A smart and user-friendly web app designed for book lovers to manage their reading lists, track progress, 
-                and get personalized recommendations.
-                Built using React, Firebase, and Node.js, the app supports both regular users and librarians, 
-                featuring AI-generated suggestions, book availability tracking, and admin-level data management.              
+                An intelligent, intuitive web platform crafted for bibliophiles who treat their TBR like sacred scripture. 
+                This app empowers users to curate and monitor their reading lists, track progress with ease, and receive tailored 
+                AI-driven book recommendations. Designed with scalability in mind, it supports both individual readers and librarians 
+                through features like inventory control, availability status, and administrative oversight.              
               </p>
-              <p className="text-base text-gray-500 mb-4">Built with React, TypeScript, Firestore, and Gemini AI</p>
+              <p className="text-base text-gray-500 mb-4">Tech Stack: React, TypeScript, Firebase (Firestore), Node.js</p>
                 <button
                   className="btn btn-primary"
                   onClick={() =>
@@ -47,10 +47,11 @@ function Projects() {
             <div>
               <h1 className="text-5xl font-bold mb-4">Smart Library Web App</h1>
               <p className="py-4 text-lg max-w-xl">
-                A modern library management system designed for both librarians and readers. It features book search, 
-                borrowing, availability tracking, and AI-powered recommendations.
+                A full-featured digital library system that feels smarter than your average librarian (but with better UX). 
+                It enables efficient book management, intuitive search, dynamic lending systems, and recommendations via AI. 
+                Built to streamline the reader-librarian interaction and make every checkout feel like a tech-powered ritual.
               </p>
-              <p className="text-base text-gray-500 mb-4">Built with React, TypeScript, Firestore, and Gemini AI</p>
+              <p className="text-base text-gray-500 mb-4">Tech Stack: React, TypeScript, Firebase, Gemini AI</p>
               <button
                 className="btn btn-primary"
                 onClick={() => window.open('https://github.com/Witch121/smart-library', '_blank')}
@@ -71,10 +72,11 @@ function Projects() {
             <div>
               <h1 className="text-5xl font-bold mb-4">Keeper Web App</h1>
                 <p className="py-4 text-lg max-w-xl">
-                  A minimalist note-taking app inspired by Google Keep, built as part of the Usemi web development course. 
-                  It allows users to create, view, and delete notes in a clean, responsive interface.
+                  A clean, distraction-free note-taking experience inspired by Google Keep but with more soul. 
+                  Created during the Udemi Full Stack course, this minimalist app allows users to capture thoughts quickly and 
+                  beautifully. A great showcase of responsive design and component structure for early product ideation.
                 </p>
-                <p className="text-base text-gray-500 mb-4">Built with React</p>
+                <p className="text-base text-gray-500 mb-4">Tech Stack: React</p>
               <button
                 className="btn btn-primary"
                 onClick={() => window.open('https://github.com/Witch121/keeper-app', '_blank')}
@@ -95,10 +97,11 @@ function Projects() {
             <div>
               <h1 className="text-5xl font-bold mb-4">Destiny Calculator Web App</h1>
               <p className="py-4 text-lg max-w-xl">
-                A playful numerology-based calculator that computes a "destiny number" from a user's name and birth date. 
-                Built as a personal side project to explore logic implementation and simple form handling in React.
+                A quirky personal project where logic meets mysticism. This numerology calculator generates a “destiny number” 
+                based on name and birthdate, bringing together basic algorithmic design and playful UX. It’s a great example of 
+                mixing clean frontend logic with a tongue-in-cheek user journey.
               </p>
-              <p className="text-base text-gray-500 mb-4">Built with React and JavaScript</p>
+              <p className="text-base text-gray-500 mb-4">Tech Stack: HTML, CSS, JavaScript</p>
               <button
                 className="btn btn-primary"
                 onClick={() => window.open('https://github.com/Witch121/destiny_calculator', '_blank')}

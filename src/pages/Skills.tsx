@@ -71,7 +71,7 @@ function Skills() {
                   </div>
                 </div>
               </div>
-              <div className="stat-value">JavaSkript</div>
+              <div className="stat-value">JavaScript</div>
             </div>
             </td>
             <td>
@@ -165,7 +165,7 @@ function Skills() {
                     </div>
                   </div>
                 </div>
-                <div className="stat-value">MangoDB</div>
+                <div className="stat-value">MongoDB</div>
               </div>
             </td>
           </tr>
