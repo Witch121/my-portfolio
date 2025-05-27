@@ -1,54 +1,28 @@
-# React + TypeScript + Vite
+🕯️ my-portfolio
+Welcome to my portfolio. It’s not just a website. It’s a digital séance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is where my brain cells put on formalwear and introduce themselves politely before quietly sobbing in the CSS. It’s not here to “market” me. It’s here to warn you.
+---
+You’ll find:
 
-Currently, two official plugins are available:
+✨ Projects I actually cared about
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💀 Code that sometimes works (and sometimes reflects the slow collapse of linear time)
 
-## Expanding the ESLint configuration
+🧃 Design choices made under the influence of late-night existentialism
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔮 A user experience that might whisper “are you okay?” in your general direction
+---
+🛠️ Built with:
+HTML/CSS/JS – because the classics never die, they just glitch stylishly
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+React – to make my personality modular and my breakdowns component-based
+Tailwind - coz why fight with align and proportions, if somebody already did it
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+🚪 Live version:
+https://witch121.github.io/my-portfolio/
+
+📸 Aesthetic Goals:
+Imagine a ghost learned to code. Now imagine that ghost had feelings and a vague caffeine addiction. That’s the design language.
