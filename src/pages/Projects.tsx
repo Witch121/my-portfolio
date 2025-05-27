@@ -1,7 +1,8 @@
 import bookTrackLogo from '../assets/img/logo_bookWorm.jpeg';
 import libraryPic from '../assets/img/libraryApp.png';
-import keeperPic from '../assets/img/keeperPic.jpg';
+// import keeperPic from '../assets/img/keeperPic.jpg';
 import destinyCalculatorPic from '../assets/img/destinyPic.jpg';
+import vocabPic from '../assets/img/words.jpg'
 
 function Projects() {
   return (
@@ -62,26 +63,26 @@ function Projects() {
           </div>
         </div>
 
-        <div className="hero bg-base-200 min-h-screen" id='keeperAppProject'>
+        <div className="hero bg-base-200 min-h-screen" id='fancyVocabularyProject'>
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img
-              src={keeperPic}
+              src={vocabPic}
               className="max-w-sm rounded-lg shadow-2xl"
               id='projectLogo'
             />
             <div>
-              <h1 className="text-5xl font-bold mb-4">Keeper Web App</h1>
+              <h1 className="text-5xl font-bold mb-4">Vocabulary Trainer Web App</h1>
                 <p className="py-4 text-lg max-w-xl">
-                  A clean, distraction-free note-taking experience inspired by Google Keep but with more soul. 
-                  Created during the Udemi Full Stack course, this minimalist app allows users to capture thoughts quickly and 
-                  beautifully. A great showcase of responsive design and component structure for early product ideation.
+                  A beautifully minimal vocabulary and reflection app for writers, language lovers, and introspective thinkers. 
+                  Offers daily prompts to stretch your mind, track your words, and store everything in real-time with Firebase and Firestore. 
+                  Built for those who treat language like an art form—and want their interface to feel the same.
                 </p>
-                <p className="text-base text-gray-500 mb-4">Tech Stack: React</p>
+                <p className="text-base text-gray-500 mb-4">Tech Stack: React, TypeScript, Firebase, Tailwind CSS </p>
               <button
                 className="btn btn-primary"
-                onClick={() => window.open('https://github.com/Witch121/keeper-app', '_blank')}
+                onClick={() => window.open('https://fancy-vocab-trainer.web.app/', '_blank')}
               >
-                GitHub
+                Try it out
               </button>            
             </div>
           </div>
