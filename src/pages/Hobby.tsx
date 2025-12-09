@@ -31,7 +31,7 @@ function Hobby() {
               <dialog id="my_modal_1" className="modal">
                 <div className="modal-box">
                   <h3 className="font-bold text-lg">For you</h3>
-                  <p className="py-4">*The Poppy War* by R. F. Kuang <br/>
+                  <p className="py-4">"The Poppy War" by R. F. Kuang <br/>
                    — a dark, beautifully written fantasy epic diving deep into power, identity, and the cost of war.</p>
                   <div className="modal-action">
                     <form method="dialog">
@@ -44,8 +44,13 @@ function Hobby() {
         </div>
         <div className="chat chat-end">
           <div className="chat-bubble">
-            🎮 When I’m not buried in books, you’ll find me exploring rich, immersive RPGs and story-driven games.<br />
-              I love narratives that challenge perception, evoke emotion, and let me save the world before breakfast.
+            🌳 When I’m not buried in books, you’ll find me happily sketching syntactic trees just for fun.<br />
+            Nothing relaxes me more than a good XP system — or a perfectly balanced CP (complementizer phrase).
+          </div>
+        </div>
+        <div className="chat chat-end">
+          <div className="chat-bubble">
+            🎮 And when it’s time to unwind, I dive into rich, immersive RPGs where I get to save the world — sometimes instead of sleeping.
           </div>
         </div>
       </div>

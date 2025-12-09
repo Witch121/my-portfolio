@@ -24,9 +24,9 @@ function Home() {
         <div>
           <h1 className="text-5xl font-bold mb-6">Personal Portfolio</h1>
           <p className="py-6 text-xl max-w-2xl mx-auto leading-relaxed">
-            Hi, I’m Daria — <br/>
-            a web developer with a passion for functional design, smart solutions, and lifelong learning. <br/>
-            If you value clarity, creativity, and clean code, we’re probably already friends.
+            Hi, I’m Daria — <br />
+            a linguistics student and web developer with a passion for structure, smart solutions, and lifelong learning. <br />
+            If you value clarity, creativity, and well-crafted systems — we’re already speaking the same language.
           </p>
         </div>
       </div>

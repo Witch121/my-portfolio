@@ -1,15 +1,15 @@
 import reactLogo from "../assets/logos/react.png";
-import bootstrapLogo from "../assets/logos/bootstrap.png";
+//import bootstrapLogo from "../assets/logos/bootstrap.png";
 import tailwindLogo from "../assets/logos/tailwind.png";
 import gitLogo from "../assets/logos/git.png";
 import jsLogo from "../assets/logos/vscode-js.png";
 import typeScriptLogo from "../assets/logos/typescript.png";
 import nodeLogo from "../assets/logos/nodejs.png";
-import netLogo from "../assets/logos/Microsoft_.NET_logo.png";
-import playwriteLogo from "../assets/logos/playwright.png";
-import expressLogo from "../assets/logos/express.png";
+//import netLogo from "../assets/logos/Microsoft_.NET_logo.png";
+//import playwriteLogo from "../assets/logos/playwright.png";
+//import expressLogo from "../assets/logos/express.png";
 import firebaseLogo from "../assets/logos/firebase.png";
-import mangoDBLogo from "../assets/logos/MongoDB-Logo.png";
+//import mangoDBLogo from "../assets/logos/MongoDB-Logo.png";
 
 function Skills() {
   return (
@@ -26,8 +26,8 @@ function Skills() {
       <table className="table w-full ">
         <thead>
           <tr>
-            <th className="text-4xl tracking-tighter text-balance text-center"> Front End</th>
-            <th className="text-4xl tracking-tighter text-balance text-center"> Back End</th>
+            <th className="text-4xl tracking-tighter text-balance text-center">Coding</th>
+            <th className="text-4xl tracking-tighter text-balance text-center">Linguistics</th>
           </tr>
         </thead>
         <tbody>
@@ -46,18 +46,11 @@ function Skills() {
             </div>
             </th>
             <td>
-              <div className="stat"  id="NODE_Logo">
-                <div className="stat-figure text-secondary">
-                  <div className="avatar online">
-                    <div className="w-16 rounded">
-                      <img src={nodeLogo} />
-                    </div>
-                  </div>
-                </div>
-                <div className="stat-value">Node.js</div>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Syntax & Sentence Structure</div>
+                <div className="text-lg text-gray-500">Focus on Ukrainian, German, English</div>
               </div>
             </td>
-
 
           </tr>
           {/* row 2 */}
@@ -75,16 +68,10 @@ function Skills() {
             </div>
             </td>
             <td>
-              <div className="stat" id="NET_Logo">
-                <div className="stat-figure text-secondary">
-                  <div className="avatar online">
-                    <div className="w-16 rounded">
-                      <img src={netLogo} />
-                    </div>
-                  </div>
-                </div>
-              <div className="stat-value">.Net</div>
-            </div>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Research & Data Collection</div>
+                <div className="text-lg text-gray-500">Fieldwork with native speakers</div>
+              </div>
             </td>
 
           </tr>
@@ -103,43 +90,31 @@ function Skills() {
             </div>
             </td>
             <td>
-              <div className="stat" id="express_Logo">
-                <div className="stat-figure text-secondary">
-                  <div className="avatar online">
-                    <div className="w-16 rounded">
-                      <img src={expressLogo} />
-                    </div>
-                  </div>
-                </div>
-              <div className="stat-value">Express.js</div>
-            </div>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Academic Writing</div>
+                <div className="text-lg text-gray-500">Linguistics papers & syntax analysis</div>
+              </div>
             </td>
           </tr>
           {/* row 4 */}
           <tr>
             <td>
-              <div className="stat" id="bootstrapLogo">
+              <div className="stat"  id="NODE_Logo">
                 <div className="stat-figure text-secondary">
                   <div className="avatar online">
                     <div className="w-16 rounded">
-                      <img src={bootstrapLogo}/>
+                      <img src={nodeLogo} />
                     </div>
                   </div>
                 </div>
-              <div className="stat-value">Bootstrap</div>
-            </div>
+                <div className="stat-value">Node.js</div>
+              </div>
             </td>
             <td>
-              <div className="stat" id="firebaseLogo">
-                <div className="stat-figure text-secondary">
-                  <div className="avatar online">
-                    <div className="w-16 rounded">
-                      <img src={firebaseLogo}/>
-                    </div>
-                  </div>
-                </div>
-              <div className="stat-value">Firebase</div>
-            </div>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Teaching Skills</div>
+                <div className="text-lg text-gray-500">Peer support in theoretical syntax</div>
+              </div>
             </td>
           </tr>
           {/* row 5 */}
@@ -157,31 +132,30 @@ function Skills() {
             </div>
             </td>
             <td>
-              <div className="stat" id="mangoDBLogo">
-                <div className="stat-figure text-secondary">
-                  <div className="avatar online">
-                    <div className="w-16 rounded">
-                      <img src={mangoDBLogo} />
-                    </div>
-                  </div>
-                </div>
-                <div className="stat-value">MongoDB</div>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Lab Work</div>
+                <div className="text-lg text-gray-500">Experience with linguistic experiments and data annotation</div>
               </div>
             </td>
           </tr>
           {/* row 6 */}
           <tr>
-            <td className="stat-value" rowSpan={2}> Additional Skills</td>
             <td>
-              <div className="stat" id="PLAYWRIGHT_Logo">
+              <div className="stat" id="firebaseLogo">
                 <div className="stat-figure text-secondary">
                   <div className="avatar online">
                     <div className="w-16 rounded">
-                      <img src={playwriteLogo}/>
+                      <img src={firebaseLogo}/>
                     </div>
                   </div>
                 </div>
-                <div className="stat-value">Playwright </div>
+              <div className="stat-value">Firebase</div>
+            </div>
+            </td>
+            <td>
+              <div className="stat  max-w-96">
+                <div className="stat-value text-xl">Neurolinguistics</div>
+                <div className="text-lg text-gray-500">Understanding of brain–language interaction and processing</div>
               </div>
             </td>
           </tr>
@@ -197,6 +171,12 @@ function Skills() {
                   </div>
                 </div>
                 <div className="stat-value">Git</div>
+              </div>
+            </td>
+            <td>
+              <div className="stat max-w-96">
+                <div className="stat-value text-xl">Formal Semantics</div>
+                <div className="text-xl text-gray-500">Training in compositional meaning and logic-based analysis</div>
               </div>
             </td>
           </tr>
